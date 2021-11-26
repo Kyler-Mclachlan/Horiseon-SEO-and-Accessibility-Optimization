@@ -1,11 +1,25 @@
+/*webpage perimeter styling*/ 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color for body */
+
 body {
     background-color: #d9dcd6;
+}
+
+/*Universal styling*/ 
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Header styling */
@@ -26,7 +40,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Naviation styling */
+/* Header and navigation styling */
 
 .header nav {
     padding-top: 15px;
@@ -43,15 +57,6 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 /* Hero image styles */
@@ -73,7 +78,7 @@ p {
     margin-left: 20px;
 }
 
-/*Main section's layout and font styling*/
+/*Main: sections layout and font styling*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -89,11 +94,6 @@ p {
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,6 +101,11 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .social-media-marketing {
@@ -117,7 +122,7 @@ p {
     font-size: 36px;
 }
 
-/*Main section position formatting*/
+/*Main: section's positional formatting classes*/
 
 .float-left {
     float: left;
@@ -129,7 +134,7 @@ p {
     margin-left: 25px;
 }
 
-/* Main section img dimensions */
+/* Main: section's img dimensions */
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -144,7 +149,7 @@ p {
 }
 
 
-/*Sidebar styling*/
+/*Aside: parent container styling*/
 
 .benefits {
     margin-right: 20px;
@@ -157,17 +162,9 @@ p {
     background-color: #2589bd;
 }
 
+/*Aside Divs:styling*/
+
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -177,15 +174,27 @@ p {
     text-align: center;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/*Aside divs: img styling*/
 
 .benefit-lead img {
     display: block;
