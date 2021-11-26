@@ -112,7 +112,7 @@ body {
 
 /* Main: each section's img's dimensions */
 
-.Horiseon_services img, .online-reputation-management img, .social-media-marketing img {
+.Horiseon_services img {
     max-height: 200px;
 }
 

@@ -1,20 +1,20 @@
 # Horiseon Website refactoring
 
-Horiseon Website refactoring 
 
 # Description
 
-This refactoring includes changes to the HTML and CSS files. The changes to these files include a more accessible HTML code, cleaner and condensed CSS classes, and comments in the CSS style for developer readability.  
+This project is a refactoring of a generic online marketing company's website. The project includes changes to the original HTML and CSS files. The changes to these files include: a more browser accessible HTML code, cleaner and condensed CSS classes, and comments in the CSS style for developer readability.  
 
 # Image of website
 
 
-# link to website
+# Link to website
 
 
 # Contributors 
-Kyler Mclachlan
-Claire 
+Kyler Mclachlan 
+
+Xander Rapstine 
 
 # Questions 
 
