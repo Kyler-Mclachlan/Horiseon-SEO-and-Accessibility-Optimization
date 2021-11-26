@@ -5,11 +5,6 @@
     margin: 0;
 }
 
-/* Background color for body */
-
-body {
-    background-color: #d9dcd6;
-}
 
 /*Universal styling*/ 
 
@@ -22,7 +17,13 @@ p {
     font-size: 16px;
 }
 
-/* Header styling */
+/* Background color for body */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Header and title styling */
 
 .header {
     padding: 20px;
@@ -35,6 +36,8 @@ p {
     display: inline-block;
     font-size: 48px;
 }
+
+/*header span styling*/
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -70,7 +73,7 @@ p {
     background-position: center;
 }
 
-/*Main container position and size */
+/*Main: container position, layout, and size */
 
 .content {
     width: 75%;
@@ -78,7 +81,7 @@ p {
     margin-left: 20px;
 }
 
-/*Main: sections layout and font styling*/
+/*Main: each sections layout and styling*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -122,7 +125,7 @@ p {
     font-size: 36px;
 }
 
-/*Main: section's positional formatting classes*/
+/*Main: each section's positional formatting classes*/
 
 .float-left {
     float: left;
@@ -134,7 +137,7 @@ p {
     margin-left: 25px;
 }
 
-/* Main: section's img dimensions */
+/* Main: each section's img's dimensions */
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -162,7 +165,7 @@ p {
     background-color: #2589bd;
 }
 
-/*Aside Divs:styling*/
+/*Aside: each Div's styling*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -194,7 +197,7 @@ p {
     text-align: center;
 }
 
-/*Aside divs: img styling*/
+/*Aside: each div's img styling*/
 
 .benefit-lead img {
     display: block;
