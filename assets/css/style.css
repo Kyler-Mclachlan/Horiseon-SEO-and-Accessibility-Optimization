@@ -84,7 +84,7 @@ body {
 
 /*Main: each sections layout and styling*/
 
-.Horiseon_services {
+.content_child_structure {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,7 +93,7 @@ body {
     color: #ffffff;
 }
 
-.Horiseon_services h2 {
+.content_child_structure h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -112,7 +112,7 @@ body {
 
 /* Main: each section's img's dimensions */
 
-.Horiseon_services img {
+.content_child_structure img {
     max-height: 200px;
 }
 
@@ -131,19 +131,19 @@ body {
 
 /*Aside: each Div's styling*/
 
-.benefit-div {
+.benefit-div-structure {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-div h3 {
+.benefit-div-structure h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*Aside: each div's img styling*/
 
-.benefit-div img {
+.benefit-div-structure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
