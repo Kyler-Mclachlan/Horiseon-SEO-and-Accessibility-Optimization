@@ -7,7 +7,7 @@ This project is a refactoring of a generic online marketing company's website. T
 
 # Link to website
 
-![link]https://kyler-mclachlan.github.io/Horiseon-SEO-and-Accessibility-Optimization/
+![link](https://kyler-mclachlan.github.io/Horiseon-SEO-and-Accessibility-Optimization/)
 
 # Contributors 
 Kyler Mclachlan 
