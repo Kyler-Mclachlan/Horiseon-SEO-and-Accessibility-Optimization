@@ -5,7 +5,6 @@
     margin: 0;
 }
 
-
 /*Universal styling*/ 
 
 a {
@@ -81,9 +80,9 @@ body {
     margin-left: 20px;
 }
 
-/*Main: each sections layout and styling*/
+/*Main: each services sections layout and styling*/
 
-.Horiseon_services_structure {
+.main_structure article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -92,10 +91,15 @@ body {
     color: #ffffff;
 }
 
-.Horiseon_services_structure h2 {
+.main_structure article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+.main_structure article img {
+    max-height: 200px;
+}
+
 
 /*Main: sections positional formatting classes*/
 
@@ -107,12 +111,6 @@ body {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* Main: each section's img's dimensions */
-
-.Horiseon_services_structure img {
-    max-height: 200px;
 }
 
 /*Aside: parent container styling*/
@@ -128,21 +126,21 @@ body {
     background-color: #2589bd;
 }
 
-/*Aside: each Div's styling*/
+/*Aside: Div's styling*/
 
-.aside_structure-div {
+.aside_structure div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.aside_structure-div h3 {
+.aside_structure div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Aside: each div's img styling*/
+/*Aside: div's img styling*/
 
-.aside_structure-div img {
+.aside_structure div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
